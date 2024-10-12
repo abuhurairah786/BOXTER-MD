@@ -6,5 +6,5 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID,
-MONGODB: process.env.MONGODB || "enter mongodb here",
+MONGODB: process.env.MONGODB || "mongodb+srv://<db_username>:<db_password>@cluster0.uus2b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
 };
